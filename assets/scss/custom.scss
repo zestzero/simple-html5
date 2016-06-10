@@ -1,0 +1,73 @@
+//Color
+$black: #181712;
+$white: #fff;
+$dark-grey: #757571;
+$light-grey: #F0F0F0;
+$blue: #6ABED8;
+
+//Typography
+$bold: 800;
+$light-bold: 500;
+$line-height: 5vw;
+$text-spacing: 24px;
+$font-size-head: 62px;
+$font-size-subhead: 30px;
+$font-size-content: 18px;
+
+body {
+	font-family: 'Cabin', sans-serif;
+	background-color: $black;
+	margin: 0px;
+}
+
+h1 { 
+	color: $white; 
+	font-size: $font-size-head; 
+	font-weight: $bold; 
+	line-height: $line-height;
+ 	margin-bottom: $text-spacing;
+	text-align: center; 
+	text-transform: uppercase; 
+}
+
+
+h2 { 
+	color: $white; 
+	font-size: $font-size-subhead; 
+	font-weight: $bold; 
+	line-height: $line-height; 
+	margin-bottom: $text-spacing;
+	text-align: center; 
+}
+
+
+p { 
+	color: $light-grey; 
+	font-size: $font-size-content; 
+	font-weight: $light-bold; 
+	line-height: $line-height; 
+	margin-bottom: $text-spacing;
+}
+
+
+a { 
+	color: #c8c8c8; 
+	text-decoration: underline; 
+}
+
+
+a:hover { 
+	color: #1c1c1c; 
+	text-decoration: underline; 
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	background-color: $dark-grey;
+	bottom: 0;
+	text-align: center;
+	p {
+		margin: 10px;
+	}
+}
